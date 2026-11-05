@@ -14,6 +14,14 @@
   <link rel="icon" href="img/favicon.png">
 
   <!-- Tailwind CSS CDN & Font Awesome -->
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z90qtpn2ow");
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
@@ -147,17 +155,22 @@
         <!-- TEXTO DA PROPOSTA -->
         <div class="lg:col-span-7 space-y-5 text-center sm:text-left">
           
-          <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-black text-brand-accent tracking-wide uppercase">
-            <i class="fas fa-hard-hat"></i> Formação Profissional Prática
+          <div class="inline-flex items-center gap-2 bg-brand-accent text-brand-dark px-4 py-1.5 rounded-full text-xs font-black tracking-wide uppercase shadow-md">
+            <i class="fas fa-bullhorn"></i> CONVOCAÇÃO OFICIAL | ELITE DE APLICADORES SOUZA
           </div>
 
           <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">
-            Aprenda Porcelanato Líquido e ofereça um novo serviço aos seus clientes.
+            Aprenda a trabalhar com Porcelanato Líquido e ofereça um novo serviço aos seus clientes.
           </h1>
 
-          <p class="text-slate-200 text-sm sm:text-base font-normal leading-relaxed">
-            Aprenda diretamente com <strong class="text-white font-bold">Souza Fagundes</strong>, profissional com 15 anos de experiência diária em obras no Rio de Janeiro.
-          </p>
+          <div class="space-y-3 text-slate-200 text-sm sm:text-base font-normal leading-relaxed">
+            <p>
+              Aprenda diretamente com <strong>Souza Fagundes</strong>, especialista com 15 anos de experiência, e faça parte de uma formação criada para preparar profissionais que desejam se destacar pela qualidade do seu trabalho.
+            </p>
+            <p class="text-brand-accent font-extrabold italic text-sm sm:text-base border-l-2 border-brand-accent pl-3 bg-brand-accent/10 py-1.5 rounded-r-lg">
+              Aqui você aprende a técnica, coloca a mão na massa e conhece o Padrão Souza de trabalhar.
+            </p>
+          </div>
 
           <!-- 5 TÓPICOS ESSENCIAIS (DIRETO AO PONTO) -->
           <div class="space-y-2.5 pt-2 text-left">
@@ -199,14 +212,14 @@
 
         </div>
 
-        <!-- FOTO REAL DO INSTRUTOR SOUZA FAGUNDES -->
+        <!-- FOTO REAL DO INSTRUTOR SOUZA FAGUNDES (HERO - PRIMEIRA FOTO) -->
         <div class="lg:col-span-5">
           <div class="bg-white p-2 rounded-2xl shadow-2xl border-4 border-white/15">
             <div class="relative rounded-xl overflow-hidden">
               <img 
-                src="img/souza-otimizado.jpg" 
-                alt="Souza Fagundes — instrutor de porcelanato líquido com 15 anos de experiência" 
-                class="w-full h-80 sm:h-[28rem] object-cover object-top"
+                src="img/souza-hero.jpg" 
+                alt="Souza Fagundes — especialista com 15 anos de experiência em porcelanato líquido" 
+                class="w-full h-80 sm:h-[30rem] object-cover object-top"
               >
               <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-dark/95 via-brand-dark/60 to-transparent p-5 text-white">
                 <span class="bg-brand-accent text-brand-dark text-[10px] font-black uppercase px-2.5 py-1 rounded">
@@ -340,63 +353,104 @@
     </div>
   </section>
 
-  <!-- SEÇÃO: ANTES E DEPOIS DE APLICAÇÃO REAL (INTERATIVO) -->
-  <section class="py-14 sm:py-18 bg-slate-50 border-b border-slate-200">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+  <!-- SEÇÃO: DEMONSTRAÇÃO EM VÍDEO - ANTES E DEPOIS REAL (AUTOPLAY) -->
+  <section class="py-14 sm:py-20 bg-slate-900 text-white border-b border-slate-800 relative overflow-hidden">
+    <!-- Efeito sutil de iluminação no fundo -->
+    <div class="absolute inset-0 bg-radial-gradient from-blue-900/20 via-transparent to-transparent pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
       
-      <div class="text-center space-y-2 mb-8">
-        <span class="text-xs font-black uppercase tracking-wider text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">
-          Resultado Prático
+      <!-- CABEÇALHO -->
+      <div class="text-center max-w-2xl mx-auto space-y-3 mb-10">
+        <span class="text-xs font-black uppercase tracking-wider text-brand-accent bg-brand-accent/10 border border-brand-accent/30 px-3.5 py-1.5 rounded-full inline-flex items-center gap-1.5 shadow-sm">
+          <i class="fas fa-video text-brand-accent"></i> Demonstração em Vídeo Real
         </span>
-        <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
-          Imagens Reais de Antes e Depois da Aplicação
+        <h2 class="text-2xl sm:text-4xl font-black text-white leading-tight">
+          Veja o Antes e Depois da Aplicação na Prática
         </h2>
-        <p class="text-xs sm:text-sm text-slate-600">
-          Arraste a linha para comparar o piso antigo com o resultado final do porcelanato líquido.
+        <p class="text-xs sm:text-sm text-slate-300 font-medium">
+          Vídeos gravados diretamente nas obras de Souza Fagundes no Rio de Janeiro. Acompanhe a transformação real entre o piso antigo e o porcelanato líquido finalizado.
         </p>
       </div>
 
-      <!-- SLIDER INTERATIVO DE ANTES/DEPOIS -->
-      <div class="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white max-w-3xl mx-auto h-[300px] sm:h-[400px]">
+      <!-- GRID DOS 2 VÍDEOS COM REPRODUÇÃO AUTOMÁTICA (SEM CORTES OU OBSTRUÇÕES) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-3xl mx-auto">
         
-        <!-- DEPOIS (FOTO REAL SOUZA FAGUNDES) -->
-        <img 
-          src="img/obra-sala.jpg" 
-          alt="Depois: Piso com Porcelanato Líquido Marmorizado" 
-          class="absolute inset-0 w-full h-full object-cover select-none"
-        >
-        <span class="absolute bottom-3 right-3 bg-emerald-600 text-white text-[11px] font-black px-3 py-1 rounded shadow z-10">
-          DEPOIS (Porcelanato Líquido)
-        </span>
+        <!-- VÍDEO 1 -->
+        <div class="bg-slate-800/90 rounded-3xl p-4 sm:p-5 border border-slate-700/80 shadow-2xl flex flex-col">
+          <!-- CABEÇALHO DO CARD (FORA DO VÍDEO PARA NÃO COBRIR) -->
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="bg-red-600/90 text-white text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+              Antes x Depois #01
+            </span>
+            <span class="text-[11px] text-slate-400 font-bold">Obra Real RJ</span>
+          </div>
 
-        <!-- ANTES (RECORTE) -->
-        <div id="before-box" class="absolute inset-0 overflow-hidden w-1/2 border-r-2 border-white select-none">
-          <img 
-            src="img/obra-antes.jpg" 
-            alt="Antes: Piso em preparação na obra" 
-            class="absolute inset-0 max-w-none w-full h-full object-cover filter contrast-125"
-            style="width: 100%; min-width: 100%; height: 100%;"
-          >
-          <span class="absolute bottom-3 left-3 bg-slate-900/90 text-white text-[11px] font-black px-3 py-1 rounded shadow z-10">
-            ANTES (Preparação / Piso Comum)
-          </span>
+          <!-- CONTAINER DO VÍDEO COM PROPORÇÃO EXATA 9:16 (SEM CORTAR TOPO OU RODAPÉ) -->
+          <div class="relative w-full aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-inner border border-white/10">
+            <video 
+              id="video-axd1"
+              src="img/axd1.mp4" 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              preload="auto"
+              class="w-full h-full object-contain bg-black"
+            ></video>
+          </div>
+
+          <!-- LEGENDA ABAIXO DO VÍDEO -->
+          <div class="mt-4 pt-3 border-t border-slate-700/60 space-y-1">
+            <h4 class="text-sm font-extrabold text-white">Transformação de Banheiro & Lavabo</h4>
+            <p class="text-xs text-slate-400">Aplicação autonivelante sem quebra-quebra, eliminando rejuntes e juntas antigas.</p>
+          </div>
         </div>
 
-        <!-- INPUT RANGE QUE CONTROLA O ARRASTE -->
-        <input 
-          type="range" 
-          min="0" 
-          max="100" 
-          value="50" 
-          id="slider-range" 
-          class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20"
-          aria-label="Controle de antes e depois"
-        >
+        <!-- VÍDEO 2 -->
+        <div class="bg-slate-800/90 rounded-3xl p-4 sm:p-5 border border-slate-700/80 shadow-2xl flex flex-col">
+          <!-- CABEÇALHO DO CARD (FORA DO VÍDEO PARA NÃO COBRIR) -->
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="bg-brand-blue/90 text-white text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+              Antes x Depois #02
+            </span>
+            <span class="text-[11px] text-slate-400 font-bold">Obra Real RJ</span>
+          </div>
 
-        <!-- BOTÃO CENTRAL VISUAL -->
-        <div id="slider-handle" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white text-brand-navy shadow-lg border-2 border-brand-accent flex items-center justify-center text-xs font-bold pointer-events-none z-10">
-          <i class="fas fa-arrows-alt-h text-xs"></i>
+          <!-- CONTAINER DO VÍDEO COM PROPORÇÃO EXATA 9:16 (SEM CORTAR TOPO OU RODAPÉ) -->
+          <div class="relative w-full aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-inner border border-white/10">
+            <video 
+              id="video-axd2"
+              src="img/axd2.mp4" 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              preload="auto"
+              class="w-full h-full object-contain bg-black"
+            ></video>
+          </div>
+
+          <!-- LEGENDA ABAIXO DO VÍDEO -->
+          <div class="mt-4 pt-3 border-t border-slate-700/60 space-y-1">
+            <h4 class="text-sm font-extrabold text-white">Acabamento Espelhado de Alto Padrão</h4>
+            <p class="text-xs text-slate-400">Padrão de qualidade Souza Fagundes: brilho contínuo vítreo resistente a riscos e manchas.</p>
+          </div>
         </div>
+
+      </div>
+
+      <!-- BOTÃO CTA DA SEÇÃO -->
+      <div class="mt-10 text-center space-y-3">
+        <a 
+          href="#inscricao" 
+          class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-brand-accent hover:bg-brand-accentHover text-brand-dark font-black text-xs sm:text-sm uppercase tracking-wider shadow-lg transition transform hover:-translate-y-0.5"
+        >
+          <span>Quero aprender a fazer esse acabamento</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
       </div>
 
     </div>
@@ -429,30 +483,30 @@
           </div>
         </div>
 
-        <!-- HISTÓRIA E FATURAMENTO OBJETIVO -->
+        <!-- HISTÓRIA E FATURAMENTO OBJETIVO (AJUSTE 4) -->
         <div class="md:col-span-7 space-y-4">
           <span class="text-xs font-black uppercase tracking-wider text-brand-blue bg-blue-50 px-3 py-1 rounded-full">
             Seu Mentor
           </span>
-          <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
-            Aprenda com quem já vive desse trabalho há 15 anos.
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+            Aprenda com quem vive do porcelanato líquido há mais de 15 anos.
           </h2>
 
           <p class="text-sm text-slate-700 leading-relaxed">
-            Há 15 anos, Souza Fagundes trabalha exclusivamente com aplicação de porcelanato líquido. Hoje, seu negócio registra um faturamento mensal entre <strong class="text-brand-navy bg-amber-100 px-1 py-0.5 rounded font-black">R$ 40 mil e R$ 50 mil</strong>, segundo os dados informados pelo próprio profissional.
+            Souza Fagundes transformou sua experiência em um negócio que hoje fatura entre <strong class="text-brand-navy bg-amber-100 px-1 py-0.5 rounded font-black">R$ 40 mil e R$ 50 mil por mês</strong>, trabalhando apenas <strong class="text-slate-900 font-bold">4 dias por semana</strong>.
           </p>
 
           <div class="p-4 rounded-xl bg-slate-50 border-l-4 border-brand-accent space-y-2 text-xs sm:text-sm text-slate-700">
             <p>
-              <strong>Agenda cheia trabalhando 4 dias por semana:</strong> ele relata ter clientes aguardando disponibilidade e, em determinados períodos, precisar interromper a divulgação porque não consegue absorver mais serviços.
+              Com a agenda cheia e clientes na fila de espera, muitas vezes precisa até interromper os anúncios por não conseguir atender toda a demanda.
             </p>
             <p>
-              Foi essa experiência que motivou um novo projeto: compartilhar o conhecimento acumulado nas obras e contribuir para a formação de novos aplicadores.
+              Agora, Souza decidiu compartilhar os conhecimentos que conquistou em milhares de horas de trabalho, formando novos profissionais no <strong>Padrão de Qualidade Souza Fagundes</strong>.
             </p>
           </div>
 
-          <p class="text-xs sm:text-sm text-slate-600">
-            Você vai aprender com alguém que conhece a realidade de uma obra: da preparação ao acabamento, incluindo os erros que devem ser evitados para não perder dinheiro.
+          <p class="text-xs sm:text-sm text-slate-700 font-medium">
+            <strong class="text-slate-900">Aprenda com quem faz de verdade:</strong> as técnicas, os segredos da aplicação e os erros que você precisa evitar para não perder tempo, material e dinheiro.
           </p>
 
         </div>
@@ -461,7 +515,77 @@
     </div>
   </section>
 
-  <!-- SEÇÃO: METODOLOGIA - AQUI VOCÊ NÃO FICA SÓ NA TEORIA (4 ETAPAS CLARAS) -->
+  <!-- SEÇÃO: NASCE A ELITE DE APLICADORES SOUZA (AJUSTE 2) -->
+  <section class="py-14 sm:py-18 bg-gradient-to-b from-slate-900 to-brand-navy text-white relative overflow-hidden border-b border-brand-accent/20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <span class="inline-block bg-brand-accent text-brand-dark px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider">
+          Padrão de Qualidade
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white">
+          Nasce a Elite de Aplicadores Souza.
+        </h2>
+        <div class="text-sm sm:text-base text-slate-200 leading-relaxed space-y-3">
+          <p>
+            Depois de 15 anos trabalhando com porcelanato líquido, Souza decidiu dar um novo passo: <em>compartilhar sua experiência e ajudar a formar profissionais que levem a qualidade a sério.</em>
+          </p>
+          <p>
+            Assim nasceu a proposta da <strong>Elite de Aplicadores Souza</strong>. Mais do que aprender a usar resina, você vai desenvolver os conhecimentos e a prática necessários para realizar um serviço bem-feito.
+          </p>
+        </div>
+      </div>
+
+      <!-- OS 3 PILARES QUE FAZEM A DIFERENÇA -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        
+        <!-- PILAR 1: DISCIPLINA -->
+        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/15 hover:border-brand-accent/60 transition group">
+          <div class="w-12 h-12 rounded-xl bg-brand-accent text-brand-dark font-black flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+            <i class="fas fa-check-double"></i>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2">Disciplina</h3>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Respeitar rigorosamente cada etapa do trabalho: do lixamento e primers até a cura química e nivelamento exato.
+          </p>
+        </div>
+
+        <!-- PILAR 2: PRECISÃO -->
+        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/15 hover:border-brand-accent/60 transition group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500 text-white font-black flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2">Precisão</h3>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Aprender a técnica correta de mistura e espalhamento com rodo dentado para evitar bolhas, ondulações e retrabalho.
+          </p>
+        </div>
+
+        <!-- PILAR 3: UNIÃO -->
+        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/15 hover:border-brand-accent/60 transition group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500 text-white font-black flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2">União</h3>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Trocar experiências contínuas, contar com a rede de apoio de outros aplicadores e evoluir sempre sob orientação.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- FRASE DE IMPACTO -->
+      <div class="bg-brand-accent/15 border-2 border-brand-accent/40 rounded-2xl p-6 sm:p-8 text-center max-w-3xl mx-auto">
+        <p class="text-base sm:text-xl font-extrabold text-brand-accent leading-relaxed italic">
+          "Porque um bom aplicador não é aquele que apenas sabe espalhar a resina. É aquele que sabe entregar um serviço de qualidade, do começo ao fim."
+        </p>
+        <span class="block mt-3 text-xs text-slate-300 font-bold uppercase tracking-wider">— Souza Fagundes</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEÇÃO: METODOLOGIA - AQUI VOCÊ NÃO FICA SÓ NA TEORIA (AJUSTE 3) -->
   <section class="py-14 sm:py-18 bg-slate-50 border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       
@@ -472,61 +596,68 @@
         <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
           Aqui você não fica só na teoria.
         </h2>
-        <p class="text-sm text-slate-600">
-          Uma formação planejada para aproximadamente <strong class="text-slate-900">um mês e meio de aprendizado e acompanhamento</strong>.
+        <p class="text-sm sm:text-base text-slate-700 font-semibold">
+          Sua jornada para se tornar um aplicador de qualidade:
         </p>
       </div>
 
-      <!-- 4 PASSOS NUMERADOS E OBJETIVOS -->
+      <!-- 4 MISSÕES DA JORNADA -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
         
-        <!-- PASSO 1 -->
+        <!-- MISSÃO 1 -->
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden">
           <div class="flex items-center gap-3 mb-3">
-            <span class="w-8 h-8 rounded-full bg-brand-navy text-white font-black flex items-center justify-center text-sm">1</span>
-            <h3 class="font-bold text-slate-900 text-base">Aprenda fazendo — 28 e 29 de novembro</h3>
+            <span class="w-9 h-9 rounded-full bg-brand-navy text-white font-black flex items-center justify-center text-xs">M1</span>
+            <h3 class="font-extrabold text-slate-900 text-base">MISSÃO 1 — Aprender colocando a mão na massa</h3>
           </div>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Dois dias de aulas presenciais no Rio de Janeiro para conhecer os materiais, ferramentas e participar das aplicações na prática com orientação direta do Souza.
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+            <strong>28 e 29 de novembro:</strong> dois dias de prática presencial com Souza para conhecer materiais, ferramentas e executar aplicações orientadas.
           </p>
         </div>
 
-        <!-- PASSO 2 -->
+        <!-- MISSÃO 2 -->
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden">
           <div class="flex items-center gap-3 mb-3">
-            <span class="w-8 h-8 rounded-full bg-brand-blue text-white font-black flex items-center justify-center text-sm">2</span>
-            <h3 class="font-bold text-slate-900 text-base">Continue aprendendo em casa</h3>
+            <span class="w-9 h-9 rounded-full bg-brand-blue text-white font-black flex items-center justify-center text-xs">M2</span>
+            <h3 class="font-extrabold text-slate-900 text-base">MISSÃO 2 — Dominar os fundamentos da técnica</h3>
           </div>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Tenha acesso às aulas gravadas e à apostila técnica para revisar os procedimentos, proporções de resina e macetes sempre que precisar.
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+            Aulas gravadas e apostila técnica para estudar e revisar cada etapa, fórmula e proporção sempre que precisar.
           </p>
         </div>
 
-        <!-- PASSO 3 -->
+        <!-- MISSÃO 3 -->
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden">
           <div class="flex items-center gap-3 mb-3">
-            <span class="w-8 h-8 rounded-full bg-emerald-600 text-white font-black flex items-center justify-center text-sm">3</span>
-            <h3 class="font-bold text-slate-900 text-base">Tire dúvidas direto com o Souza</h3>
+            <span class="w-9 h-9 rounded-full bg-emerald-600 text-white font-black flex items-center justify-center text-xs">M3</span>
+            <h3 class="font-extrabold text-slate-900 text-base">MISSÃO 3 — Evoluir com orientação</h3>
           </div>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Participe de <strong>quatro encontros semanais ao vivo</strong> online, além do grupo de acompanhamento ativo no WhatsApp durante a formação.
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+            Quatro encontros online ao vivo diretamente com Souza e acompanhamento diário no grupo exclusivo da turma no WhatsApp.
           </p>
         </div>
 
-        <!-- PASSO 4 (O GRANDE DIFERENCIAL) -->
+        <!-- MISSÃO 4 -->
         <div class="bg-white p-6 rounded-2xl border-2 border-brand-accent shadow-md relative overflow-hidden bg-gradient-to-br from-white to-amber-50/40">
           <div class="flex items-center gap-3 mb-3">
-            <span class="w-8 h-8 rounded-full bg-brand-accent text-brand-dark font-black flex items-center justify-center text-sm">4</span>
-            <h3 class="font-bold text-slate-900 text-base">Entre em obras de verdade!</h3>
+            <span class="w-9 h-9 rounded-full bg-brand-accent text-brand-dark font-black flex items-center justify-center text-xs">M4</span>
+            <h3 class="font-extrabold text-slate-900 text-base">MISSÃO 4 — Ganhar experiência em obras reais</h3>
           </div>
-          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Depois da etapa de aprendizado, participe de <strong>pelo menos duas vivências supervisionadas em obras de clientes reais</strong> da empresa. Você sente na pele a dinâmica de um cliente de verdade.
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+            Pelo menos duas participações supervisionadas em obras da empresa Souza Fagundes, com possibilidade de vivências adicionais conforme avaliação e disponibilidade.
           </p>
-          <span class="inline-block mt-2 text-[11px] text-amber-800 font-semibold bg-amber-100/80 px-2 py-0.5 rounded">
-            Oportunidades adicionais de prática conforme avaliação e disponibilidade.
-          </span>
         </div>
 
+      </div>
+
+      <!-- DESTAQUE PÓS-MISSÕES -->
+      <div class="mt-8 bg-brand-navy text-white rounded-2xl p-5 sm:p-6 text-center shadow-lg border border-brand-blue/50">
+        <div class="flex items-center justify-center gap-2 text-brand-accent mb-1 font-bold text-xs uppercase tracking-wider">
+          <i class="fas fa-calendar-alt"></i> Acompanhamento Contínuo
+        </div>
+        <p class="text-sm sm:text-lg font-black text-white">
+          "Uma formação planejada para aproximadamente um mês e meio de aprendizado e acompanhamento."
+        </p>
       </div>
 
     </div>
@@ -687,66 +818,548 @@
   </section>
 
   <!-- SEÇÃO: GALERIA DE TRABALHOS FEITOS POR SOUZA FAGUNDES (FOTOS REAIS) -->
-  <section class="py-14 sm:py-18 bg-white border-b border-slate-200">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <section id="galeria" class="py-14 sm:py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
       
-      <div class="text-center max-w-2xl mx-auto space-y-2 mb-10">
-        <span class="text-xs font-black uppercase tracking-wider text-brand-blue bg-blue-50 px-3 py-1 rounded-full">
-          Galeria de Obras
+      <div class="text-center max-w-2xl mx-auto space-y-2.5 mb-8">
+        <span class="text-xs font-black uppercase tracking-wider text-brand-blue bg-blue-100/70 px-3.5 py-1.5 rounded-full inline-flex items-center gap-1.5">
+          <i class="fas fa-camera text-brand-blue"></i> Galeria Oficial de Obras
         </span>
-        <h2 class="text-2xl sm:text-3xl font-black text-slate-900">
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 leading-tight">
           Veja alguns trabalhos feitos por Souza Fagundes
         </h2>
-        <p class="text-xs sm:text-sm text-slate-600">
-          Você vai aprender as técnicas exatas usadas para criar esses acabamentos espelhados e resistentes.
+        <p class="text-xs sm:text-sm text-slate-600 font-medium">
+          Destaques reais de obras executadas no Rio de Janeiro e Grande Rio, com diferentes técnicas, efeitos e ambientes.
         </p>
       </div>
 
-      <!-- GRID DE 6 FOTOS REAIS DO SITE DELES -->
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-marmorizado.jpg" alt="Piso Marmorizado Epóxi Souza Fagundes" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Efeito Marmorizado</span>
+      <!-- BOTÕES DE FILTRO POR CATEGORIA -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 mb-8">
+        <button 
+          type="button" 
+          onclick="filterGallery('all')" 
+          class="gallery-filter-btn active px-4 py-2 rounded-full text-xs font-black transition-all shadow-sm bg-brand-navy text-white hover:opacity-95" 
+          data-target="all"
+        >
+          Todos os Destaques (12)
+        </button>
+        <button 
+          type="button" 
+          onclick="filterGallery('marmorizados')" 
+          class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-black transition-all border border-slate-200 bg-white text-slate-700 hover:bg-slate-100" 
+          data-target="marmorizados"
+        >
+          Marmorizados & Metalizados (4)
+        </button>
+        <button 
+          type="button" 
+          onclick="filterGallery('pisos')" 
+          class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-black transition-all border border-slate-200 bg-white text-slate-700 hover:bg-slate-100" 
+          data-target="pisos"
+        >
+          Pisos Monolíticos (3)
+        </button>
+        <button 
+          type="button" 
+          onclick="filterGallery('paineis')" 
+          class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-black transition-all border border-slate-200 bg-white text-slate-700 hover:bg-slate-100" 
+          data-target="paineis"
+        >
+          Paredes & Painéis 3D (4)
+        </button>
+        <button 
+          type="button" 
+          onclick="filterGallery('pratica')" 
+          class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-black transition-all border border-slate-200 bg-white text-slate-700 hover:bg-slate-100" 
+          data-target="pratica"
+        >
+          Mão na Massa (1)
+        </button>
+      </div>
+
+      <!-- GRID DE CARDS COM AS 12 FOTOS REAIS CURADAS -->
+      <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-5">
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="marmorizados"
+          onclick="openGalleryModal('img/obra-banheiro-marmorizado.jpg', 'Bancada Esculpida & Piso Calacatta', 'Efeito marmorizado contínuo integrando piso e bancada do lavatório.', 'Marmorizado Calacatta')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-banheiro-marmorizado.jpg" 
+              alt="Bancada Esculpida & Piso Calacatta" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Marmorizado Calacatta
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Bancada Esculpida & Piso Calacatta
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Efeito marmorizado contínuo integrando piso e bancada do lavatório.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-metalizado.jpg" alt="Piso Metalizado Epóxi" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Piso Metalizado 3D</span>
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="marmorizados"
+          onclick="openGalleryModal('img/obra-marmorizado.jpg', 'Piso Marmorizado Nobre', 'Veios orgânicos trabalhados artesanalmente com resina pura.', 'Efeito Mármore')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-marmorizado.jpg" 
+              alt="Piso Marmorizado Nobre" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Efeito Mármore
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Piso Marmorizado Nobre
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Veios orgânicos trabalhados artesanalmente com resina pura.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-piscina.jpg" alt="Piscina com Porcelanato Líquido" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Aplicação em Piscina</span>
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="marmorizados"
+          onclick="openGalleryModal('img/obra-metalizado.jpg', 'Piso Metalizado 3D Perolizado', 'Pigmento metálico nobre com reflexo tridimensional de alto impacto.', 'Metalizado 3D')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-metalizado.jpg" 
+              alt="Piso Metalizado 3D Perolizado" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Metalizado 3D
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Piso Metalizado 3D Perolizado
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Pigmento metálico nobre com reflexo tridimensional de alto impacto.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-sala.jpg" alt="Sala de Estar Porcelanato Líquido" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Sala Ampla Espelhada</span>
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="marmorizados"
+          onclick="openGalleryModal('img/obra-cozinha-metalizado-cobre.jpg', 'Cozinha Metalizada Âmbar/Cobre', 'Tonalidade exclusiva com pigmentos metálicos fluidos de alto brilho.', 'Efeito Metalizado')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-cozinha-metalizado-cobre.jpg" 
+              alt="Cozinha Metalizada Âmbar/Cobre" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Efeito Metalizado
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Cozinha Metalizada Âmbar/Cobre
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Tonalidade exclusiva com pigmentos metálicos fluidos de alto brilho.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-piso-3d.jpg" alt="Piso 3D Personalizado" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Piso 3D Temático</span>
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="pisos"
+          onclick="openGalleryModal('img/obra-sala-branca-monolitica.jpg', 'Sala Integrada Monolítica', 'Sensação de amplitude contínua em toda a área social sem divisões.', 'Sala Integrada')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-sala-branca-monolitica.jpg" 
+              alt="Sala Integrada Monolítica" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Sala Integrada
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Sala Integrada Monolítica
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Sensação de amplitude contínua em toda a área social sem divisões.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
-        <div class="rounded-xl overflow-hidden shadow-sm border border-slate-200 group">
-          <img src="img/obra-comercial.jpg" alt="Piso Comercial e Clínicas" class="w-full h-48 sm:h-60 object-cover group-hover:scale-105 transition duration-300">
-          <div class="p-2 bg-slate-50 text-center">
-            <span class="text-xs font-bold text-slate-800">Piso Comercial Monolítico</span>
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="pisos"
+          onclick="openGalleryModal('img/obra-banheiro-luxo-branco.jpg', 'Banheiro de Luxo Louças Pretas', 'Piso porcelanato líquido branco sem emendas ou rejuntes escurecidos.', 'Piso Monolítico')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-banheiro-luxo-branco.jpg" 
+              alt="Banheiro de Luxo Louças Pretas" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Piso Monolítico
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Banheiro de Luxo Louças Pretas
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Piso porcelanato líquido branco sem emendas ou rejuntes escurecidos.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
           </div>
         </div>
 
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="pisos"
+          onclick="openGalleryModal('img/obra-cozinha-branca-espelhada.jpg', 'Cozinha Branca Espelhada', 'Superfície vítrea autonivelante resistente a óleos, gorduras e água.', 'Cozinha Espelhada')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-cozinha-branca-espelhada.jpg" 
+              alt="Cozinha Branca Espelhada" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Cozinha Espelhada
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Cozinha Branca Espelhada
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Superfície vítrea autonivelante resistente a óleos, gorduras e água.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="paineis"
+          onclick="openGalleryModal('img/obra-souza-painel-natureza.jpg', 'Painel Gigante Natureza 3D', 'Souza Fagundes ao lado de parede inteira resinada em alta definição.', 'Painel Parede 3D')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-souza-painel-natureza.jpg" 
+              alt="Painel Gigante Natureza 3D" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Painel Parede 3D
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Painel Gigante Natureza 3D
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Souza Fagundes ao lado de parede inteira resinada em alta definição.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="paineis"
+          onclick="openGalleryModal('img/obra-cozinha-parede-geometrica.jpg', 'Revestimento de Parede Geométrico 3D', 'Aplicação em parede com resina impermeável e padrão geométrico moderno.', 'Geométrico 3D')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-cozinha-parede-geometrica.jpg" 
+              alt="Revestimento de Parede Geométrico 3D" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Geométrico 3D
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Revestimento de Parede Geométrico 3D
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Aplicação em parede com resina impermeável e padrão geométrico moderno.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="paineis"
+          onclick="openGalleryModal('img/obra-piso-3d.jpg', 'Piso 3D Fundo do Mar', 'Profundidade visual hiper-realista com golfinhos sob resina cristalina.', 'Piso 3D Temático')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-piso-3d.jpg" 
+              alt="Piso 3D Fundo do Mar" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Piso 3D Temático
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Piso 3D Fundo do Mar
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Profundidade visual hiper-realista com golfinhos sob resina cristalina.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="paineis"
+          onclick="openGalleryModal('img/obra-clientes-painel-piscina.jpg', 'Área de Lazer & Piscina Externa', 'Clientes com espaço de lazer transformado por painel artístico impermeável.', 'Área Externa')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-clientes-painel-piscina.jpg" 
+              alt="Área de Lazer & Piscina Externa" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Área Externa
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Área de Lazer & Piscina Externa
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Clientes com espaço de lazer transformado por painel artístico impermeável.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          class="gallery-item rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white group cursor-pointer relative flex flex-col"
+          data-category="pratica"
+          onclick="openGalleryModal('img/obra-aplicacao-rolo-1.jpg', 'Equipe Souza: Nivelamento Técnico', 'Aplicação prática em obra no RJ com distribuição uniforme sem bolhas.', 'Mão na Massa')"
+        >
+          <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+            <img 
+              src="img/obra-aplicacao-rolo-1.jpg" 
+              alt="Equipe Souza: Nivelamento Técnico" 
+              loading="lazy"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition duration-300"></div>
+            
+            <div class="absolute top-2.5 left-2.5 bg-brand-navy/90 backdrop-blur-sm text-white text-[10px] font-black uppercase px-2 py-0.5 rounded shadow">
+              Mão na Massa
+            </div>
+
+            <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-brand-accent text-brand-dark flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition duration-300 shadow-md transform translate-y-1 group-hover:translate-y-0">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between bg-white">
+            <div>
+              <h3 class="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-brand-blue transition line-clamp-1">
+                Equipe Souza: Nivelamento Técnico
+              </h3>
+              <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-tight">
+                Aplicação prática em obra no RJ com distribuição uniforme sem bolhas.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-bold">
+              <span><i class="fas fa-check-circle text-emerald-500 mr-1"></i>Obra Real RJ</span>
+              <span class="text-brand-blue font-extrabold group-hover:underline">Ampliar &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AVISO DE CLIQUE PARA AMPLIAR E CTA -->
+      <div class="mt-10 text-center bg-white p-5 rounded-2xl border border-slate-200 shadow-sm max-w-2xl mx-auto space-y-3">
+        <p class="text-xs text-slate-600">
+          <i class="fas fa-hand-pointer text-brand-blue mr-1.5"></i> Toque ou clique em qualquer foto para ver ampliada em tela cheia.
+        </p>
+        <a 
+          href="#inscricao" 
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-accent hover:bg-brand-accentHover text-brand-dark font-extrabold text-xs sm:text-sm uppercase tracking-wider shadow-md transition transform hover:-translate-y-0.5"
+        >
+          <span>Quero aprender a fazer esse acabamento</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
       </div>
 
     </div>
@@ -991,7 +1604,7 @@
   <section class="py-14 sm:py-18 bg-brand-navy text-white text-center">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 space-y-4">
       <h2 class="text-2xl sm:text-3xl font-black text-white">
-        Sua próxima oportunidade de trabalho pode começar aqui.
+        A próxima turma da Elite de Aplicadores Souza está sendo formada. Você vai fazer parte?
       </h2>
       <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-xl mx-auto">
         <strong>28 e 29 de novembro de 2026.</strong><br>
@@ -1002,7 +1615,7 @@
           href="#inscricao" 
           class="inline-flex items-center gap-2 bg-brand-accent hover:bg-brand-accentHover text-brand-dark font-black text-sm sm:text-base px-8 py-4 rounded-xl transition shadow-xl transform hover:-translate-y-0.5"
         >
-          <span>QUERO PARTICIPAR DA FORMAÇÃO</span>
+          <span>QUERO FAZER PARTE DA ELITE SOUZA</span>
           <i class="fas fa-arrow-right"></i>
         </a>
       </div>
@@ -1019,8 +1632,10 @@
         <span class="font-black text-slate-200">SOUZA FAGUNDES</span>
         <span>• Formação em Porcelanato Líquido RJ</span>
       </div>
-      <div>
-        <span>Contato Direto: (21) 97022-3909 • Rio de Janeiro - RJ</span>
+      <div class="flex items-center gap-4 text-slate-400">
+        <button onclick="openLgpdModal()" class="hover:text-white transition underline">Privacidade e LGPD</button>
+        <span>•</span>
+        <a href="tel:21970223909" class="hover:text-white transition">(21) 97022-3909</a>
       </div>
       <div>
         <p>&copy; 2026 Souza Fagundes. Todos os direitos reservados.</p>
@@ -1040,20 +1655,76 @@
     </a>
   </div>
 
+  <!-- BANNER DE CONSENTIMENTO LGPD (LEI Nº 13.709/2018) -->
+  <div id="lgpd-banner" class="fixed bottom-0 inset-x-0 z-50 p-4 bg-slate-900/95 text-white backdrop-blur-md border-t border-slate-700 shadow-2xl transition-all duration-500">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-xs sm:text-sm text-slate-300 space-y-1 text-center md:text-left">
+        <p class="font-bold text-white flex items-center justify-center md:justify-start gap-1.5">
+          <i class="fas fa-shield-alt text-emerald-400"></i> Privacidade e Proteção de Dados (LGPD)
+        </p>
+        <p>
+          Utilizamos cookies e ferramentas analíticas (como o Microsoft Clarity) para mapear a navegação e melhorar a sua experiência no site, além de processar dados para atendimento e orçamentos via WhatsApp. Ao continuar navegando, você concorda com a nossa
+          <button onclick="openLgpdModal()" class="text-brand-accent underline hover:text-amber-300 font-semibold focus:outline-none">Política de Privacidade</button>.
+        </p>
+      </div>
+      <div class="flex items-center gap-3 shrink-0">
+        <button onclick="acceptLgpd()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs px-5 py-2.5 rounded-xl transition shadow">
+          Aceitar Todos
+        </button>
+        <button onclick="acceptLgpdMinimal()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 font-bold text-xs px-4 py-2.5 rounded-xl transition">
+          Apenas Necessários
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE POLÍTICA DE PRIVACIDADE E LGPD -->
+  <div id="lgpd-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white text-slate-900 rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 sm:p-8 shadow-2xl border border-slate-200 relative">
+      <button onclick="closeLgpdModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-800 text-xl font-bold p-1">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="space-y-4 text-xs sm:text-sm leading-relaxed">
+        <div class="border-b border-slate-200 pb-3">
+          <span class="text-xs font-black uppercase tracking-wider text-brand-blue">Conformidade Legal</span>
+          <h3 class="text-lg sm:text-xl font-black text-slate-900 mt-1">Política de Privacidade e Tratamento de Dados (LGPD)</h3>
+          <p class="text-xs text-slate-500">Última atualização: Novembro de 2026 • Em conformidade com a Lei nº 13.709/2018</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900">1. Controlador dos Dados</h4>
+          <p class="text-slate-600">Souza Fagundes Porcelanato Líquido, sediada no Rio de Janeiro - RJ. Contato: (21) 97022-3909.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900">2. Quais Dados Coletamos</h4>
+          <p class="text-slate-600">
+            • <strong>Dados de Navegação e Usabilidade:</strong> Páginas acessadas, mapa de calor, cliques e tempo de navegação de forma anônima e agregada através da ferramenta Microsoft Clarity.<br>
+            • <strong>Dados Fornecidos Voluntariamente:</strong> Nome, número de telefone e informações de obra enviadas por você através de links de WhatsApp e formulários de estimativa.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900">3. Finalidade do Tratamento</h4>
+          <p class="text-slate-600">
+            Os dados são utilizados exclusivamente para responder dúvidas sobre a Formação Profissional de Porcelanato Líquido, fornecer orçamentos solicitados e aprimorar o desempenho e a segurança do site. Não comercializamos nem repassamos dados para terceiros.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-900">4. Direitos do Titular (Art. 18 da LGPD)</h4>
+          <p class="text-slate-600">
+            Você tem direito a confirmar a existência do tratamento, acessar seus dados, solicitar a correção de dados incompletos ou a exclusão dos dados fornecidos com consentimento através de contato direto pelo WhatsApp (21) 97022-3909.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-slate-200 flex justify-end">
+          <button onclick="closeLgpdModal(); acceptLgpd();" class="bg-brand-navy hover:bg-brand-blue text-white font-extrabold text-xs px-6 py-2.5 rounded-xl transition">
+            Entendi e Concordo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- SCRIPT PARA O COMPARADOR ANTES/DEPOIS E COUNTDOWN TIMER -->
   <script>
-    // Slider Antes/Depois
-    const sliderRange = document.getElementById('slider-range');
-    const beforeBox = document.getElementById('before-box');
-    const sliderHandle = document.getElementById('slider-handle');
-
-    if (sliderRange && beforeBox && sliderHandle) {
-      sliderRange.addEventListener('input', (e) => {
-        const val = e.target.value;
-        beforeBox.style.width = val + '%';
-        sliderHandle.style.left = val + '%';
-      });
-    }
+    
 
     // Countdown Timer dinâmico para 28 de Novembro de 2026
     function updateCountdown() {
@@ -1075,7 +1746,135 @@
     }
     updateCountdown();
     setInterval(updateCountdown, 1000);
+
+    // LGPD Consent Management
+    function checkLgpd() {
+      if (localStorage.getItem('lgpd_consent')) {
+        const banner = document.getElementById('lgpd-banner');
+        if (banner) banner.style.display = 'none';
+      }
+    }
+    function acceptLgpd() {
+      localStorage.setItem('lgpd_consent', 'all');
+      const banner = document.getElementById('lgpd-banner');
+      if (banner) banner.style.display = 'none';
+    }
+    function acceptLgpdMinimal() {
+      localStorage.setItem('lgpd_consent', 'essential');
+      const banner = document.getElementById('lgpd-banner');
+      if (banner) banner.style.display = 'none';
+    }
+    function openLgpdModal() {
+      const modal = document.getElementById('lgpd-modal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+    function closeLgpdModal() {
+      const modal = document.getElementById('lgpd-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+    checkLgpd();
+
+  
+    // Galeria Interativa: Filtros e Lightbox Modal
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gallery-item');
+      const buttons = document.querySelectorAll('.gallery-filter-btn');
+
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-target') === category) {
+          btn.classList.add('bg-brand-navy', 'text-white', 'shadow-sm');
+          btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+        } else {
+          btn.classList.remove('bg-brand-navy', 'text-white', 'shadow-sm');
+          btn.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+        }
+      });
+
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    function openGalleryModal(src, title, sub, badge) {
+      const modal = document.getElementById('gallery-modal');
+      const img = document.getElementById('gallery-modal-img');
+      const titleEl = document.getElementById('gallery-modal-title');
+      const subEl = document.getElementById('gallery-modal-sub');
+      const badgeEl = document.getElementById('gallery-modal-badge');
+
+      if (modal && img) {
+        img.src = src;
+        img.alt = title;
+        if (titleEl) titleEl.innerText = title;
+        if (subEl) subEl.innerText = sub;
+        if (badgeEl) badgeEl.innerText = badge;
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeGalleryModal() {
+      const modal = document.getElementById('gallery-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+    }
+
+    function closeGalleryModalOnBackdrop(event) {
+      if (event.target.id === 'gallery-modal') {
+        closeGalleryModal();
+      }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeGalleryModal();
+      }
+    });
+
   </script>
+
+
+  <!-- MODAL LIGHTBOX PARA A GALERIA DE FOTOS -->
+  <div id="gallery-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm hidden items-center justify-center p-3 sm:p-6" onclick="closeGalleryModalOnBackdrop(event)">
+    <div class="relative max-w-4xl w-full max-h-[94vh] flex flex-col items-center">
+      <!-- Botão Fechar -->
+      <button 
+        type="button" 
+        onclick="closeGalleryModal()" 
+        class="absolute -top-11 right-0 text-white hover:text-brand-accent text-3xl font-black p-1 transition z-20 focus:outline-none"
+        title="Fechar visualização"
+      >
+        <i class="fas fa-times"></i>
+      </button>
+
+      <!-- Container da Imagem -->
+      <div class="w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-white/10 flex items-center justify-center max-h-[75vh]">
+        <img id="gallery-modal-img" src="" alt="Trabalho Souza Fagundes" class="max-h-[75vh] w-auto max-w-full object-contain">
+      </div>
+
+      <!-- Legenda e Detalhes -->
+      <div class="mt-3 text-center text-white px-2">
+        <span id="gallery-modal-badge" class="inline-block text-[10px] font-black uppercase tracking-wider text-brand-accent bg-white/10 px-3 py-1 rounded-full mb-1"></span>
+        <h4 id="gallery-modal-title" class="text-sm sm:text-lg font-bold text-white"></h4>
+        <p id="gallery-modal-sub" class="text-xs text-slate-300 mt-0.5"></p>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
